@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = 'http://localhost:8080/api/employee';
-const REST_API_BASE_URL_ALL = 'http://localhost:8080/api/employee/all';
-const REST_API_PENDING_URL = 'http://localhost:8080/api/employee/pending';
+const REST_API_BASE_URL = 'https://liberty-backend-production.up.railway.app/api/employee';
+const REST_API_BASE_URL_ALL = 'https://liberty-backend-production.up.railway.app/api/employee/all';
+const REST_API_PENDING_URL = 'https://liberty-backend-production.up.railway.app/api/employee/pending';
 
 export const listEmployee = () =>{
     return axios.get(REST_API_BASE_URL);
