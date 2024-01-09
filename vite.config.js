@@ -7,8 +7,8 @@ export default defineConfig({server: {
     usePolling: true
   },
 },
-  plugins: [react({
-    include: "**/*.tsx",
-  }),
-  ],
-});
+  plugins: [react()],
+  server:{
+    port:3000
+  }
+})
