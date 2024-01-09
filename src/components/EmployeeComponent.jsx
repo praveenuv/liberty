@@ -109,7 +109,7 @@ const EmployeeComponent = () => {
         <br></br>
        <div className='row' >
             <div className='card col-md-6 offset-md-3 offset-md-3'>
-                <h2 className='text-center'>Add Employee</h2>
+                <h2 className='text-center'>Enter Member Details</h2>
                 <div className='card-body'>
                     <form method="post" encType="multipart/form-data"> 
                     <nav className="navbar navbar-light bg-light px-3">

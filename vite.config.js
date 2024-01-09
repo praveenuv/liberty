@@ -10,5 +10,5 @@ export default defineConfig({server: {
   plugins: [react({
     include: "**/*.tsx",
   }),
-  ]
-})
+  ],
+});
