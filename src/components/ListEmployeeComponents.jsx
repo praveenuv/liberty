@@ -38,7 +38,7 @@ const ListEmployeeComponents = () => {
             <thead>
                 <tr>
                     <th>Member id</th>
-                    <th>Member First Name</th>
+                    <th>Member Name</th>
                     <th>Member Designation</th>
                     <th>Member Email</th>
                     <th>image</th>

@@ -114,10 +114,10 @@ const EmployeeComponent = () => {
                     <form method="post" encType="multipart/form-data"> 
                     <nav className="navbar navbar-light bg-light px-3">
                         <div className='form-group mb-2'>
-                            <label className='form-label'>First Name</label>
+                            <label className='form-label'>Member Name</label>
                             <input
                             type='text'
-                            placeholder='Enter member first name'
+                            placeholder='Enter member name'
                             name='firstName'
                             value={firstName}
                             className={`form-control ${errors.firstName ? 'is-invalid': ''}`}
@@ -127,7 +127,7 @@ const EmployeeComponent = () => {
                             {errors.firstName && <div className='invalid-feedback'>{errors.firstName}</div>}
                         </div>
                         <div className='form-group mb-2'>
-                            <label className='form-label'>Designation</label>
+                            <label className='form-label'>Member Designation</label>
                             <input
                             type='text'
                             placeholder='Enter member Designation'
