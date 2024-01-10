@@ -5,7 +5,7 @@ const REST_API_BASE_URL_ALL = 'https://liberty-backend-production.up.railway.app
 const REST_API_PENDING_URL = 'https://liberty-backend-production.up.railway.app/api/employee/pending';
 
 export const listEmployee = () =>{
-    return axios.get(REST_API_BASE_URL);
+    return axios.get(REST_API_BASE_URL_ALL);
 
 }
 export const listEmployee1 = () =>{
