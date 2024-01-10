@@ -127,10 +127,10 @@ const EmployeeComponent = () => {
                             {errors.firstName && <div className='invalid-feedback'>{errors.firstName}</div>}
                         </div>
                         <div className='form-group mb-2'>
-                            <label className='form-label'>Last Name</label>
+                            <label className='form-label'>Designation</label>
                             <input
                             type='text'
-                            placeholder='Enter member Last name'
+                            placeholder='Enter member Designation'
                             name='LastName'
                             value={lastName}
                             className={`form-control ${errors.lastName ? 'is-invalid': ''}`}
